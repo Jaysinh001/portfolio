@@ -15,7 +15,13 @@ const config = {
     // Feel free to reconfigure them to your own preference.
     "@typescript-eslint/array-type": "off",
     "@typescript-eslint/consistent-type-definitions": "off",
-
+    "@typescript-eslint/no-floating-promises": [
+      "error",
+      {
+        ignoreVoid: true, // Allows void to be used for floating promises
+        ignoreIIFE: true, // Allows immediately invoked async functions
+      },
+    ],
     "@typescript-eslint/consistent-type-imports": [
       "warn",
       {

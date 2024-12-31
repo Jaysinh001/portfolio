@@ -67,27 +67,27 @@ const MyApp: AppType = ({ Component, pageProps }) => {
   const refScrollContainer = useRef<HTMLDivElement | null>(null);
 
   useEffect(() => {
-    let scroll: { destroy: () => void } | null = null; // Properly typed `scroll`
+    let scroll: { destroy: () => void } | null = null;
 
-    async function initializeLocomotiveScroll() {
+    const initializeLocomotiveScroll = async () => {
       try {
         const LocomotiveScroll = (await import("locomotive-scroll")).default;
 
         scroll = new LocomotiveScroll({
-          el: refScrollContainer.current ?? new HTMLElement(),
+          el: refScrollContainer.current ?? undefined, // Updated for safety
           smooth: true,
           multiplier: 1.2,
         });
       } catch (error) {
         console.error("Failed to initialize LocomotiveScroll:", error);
       }
-    }
+    };
 
-    initializeLocomotiveScroll();
+    void initializeLocomotiveScroll(); // Explicitly mark the promise as ignored
 
     return () => {
       if (scroll) {
-        scroll.destroy(); // Safe destruction with proper type
+        scroll.destroy();
       }
     };
   }, []);
@@ -100,3 +100,4 @@ const MyApp: AppType = ({ Component, pageProps }) => {
 };
 
 export default MyApp;
+
