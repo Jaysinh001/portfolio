@@ -37,39 +37,30 @@ const aboutStats = [
 
 const projects = [
   {
-    title: "Unqueue",
-    description: "E-commerce platform for selling digital products",
+    title: "Chargescape",
+    description: "A Modern App to charge your EVs",
     image: "/assets/chargescape.webm",
-    href: "https://unqueue.shop/",
+    href: "https://play.google.com/store/apps/details?id=com.gridscape.gridscape",
   },
   {
-    title: "InfiniteVPS",
-    description: "High performance VPS hosting solution",
-    image: "/assets/chargescape.webm",
-    href: "#",
+    title: "Pocket Book",
+    description: "A Modern and Elite App to track your expences and income",
+    image: "/assets/pocketbook.webm",
+    href: "https://play.google.com/store/apps/details?id=com.jcdev.pocketbook",
   },
   {
-    title: "InfiniteVPS",
-    description: "High performance VPS hosting solution",
-    image: "/assets/chargescape.webm",
-    href: "#",
-  }, {
-    title: "InfiniteVPS",
-    description: "High performance VPS hosting solution",
-    image: "/assets/chargescape.webm",
-    href: "#",
-  }, {
-    title: "InfiniteVPS",
-    description: "High performance VPS hosting solution",
-    image: "/assets/chargescape.webm",
-    href: "#",
+    title: "energyscope",
+    description: "An analytic app for managing your electricity consuption and production through solar energy",
+    image: "/assets/energyscope.webm",
+    href: "https://play.google.com/store/apps/details?id=com.gridscape.energyscope",
   },
-  {
-    title: "Wrona",
-    description: "Robotics-focused technology company",
-    image: "/assets/wrona.jpeg",
-    href: "https://www.wrona.com/",
-  },
+
+  // {
+  //   title: "Wrona",
+  //   description: "Robotics-focused technology company",
+  //   image: "/assets/wrona.jpeg",
+  //   href: "https://www.wrona.com/",
+  // },
 
 ];
 
