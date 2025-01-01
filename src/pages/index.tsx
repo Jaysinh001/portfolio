@@ -39,46 +39,30 @@ const projects = [
   {
     title: "Unqueue",
     description: "E-commerce platform for selling digital products",
-    image: "/assets/unqueue.webm",
+    image: "/assets/chargescape.webm",
     href: "https://unqueue.shop/",
   },
   {
     title: "InfiniteVPS",
     description: "High performance VPS hosting solution",
-    image: "/assets/infinitevps.webm",
+    image: "/assets/chargescape.webm",
     href: "#",
   },
   {
     title: "InfiniteVPS",
     description: "High performance VPS hosting solution",
-    image: "/assets/infinitevps.webm",
+    image: "/assets/chargescape.webm",
     href: "#",
   }, {
     title: "InfiniteVPS",
     description: "High performance VPS hosting solution",
-    image: "/assets/infinitevps.webm",
+    image: "/assets/chargescape.webm",
     href: "#",
   }, {
     title: "InfiniteVPS",
     description: "High performance VPS hosting solution",
-    image: "/assets/infinitevps.webm",
+    image: "/assets/chargescape.webm",
     href: "#",
-  }, {
-    title: "InfiniteVPS",
-    description: "High performance VPS hosting solution",
-    image: "/assets/infinitevps.webm",
-    href: "#",
-  }, {
-    title: "InfiniteVPS",
-    description: "High performance VPS hosting solution",
-    image: "/assets/infinitevps.webm",
-    href: "#",
-  },
-  {
-    title: "TranslateBot",
-    description: "Powerful Multilingual Translation Bot for Discord",
-    image: "/assets/translate_bot.webm",
-    href: "https://translatebot.app/",
   },
   {
     title: "Wrona",
@@ -86,12 +70,7 @@ const projects = [
     image: "/assets/wrona.jpeg",
     href: "https://www.wrona.com/",
   },
-  {
-    title: "This website",
-    description: "My personal website",
-    image: "/assets/portfolio.webm",
-    href: "https://github.com/wendoj/portfolio",
-  },
+
 ];
 
 const services = [
